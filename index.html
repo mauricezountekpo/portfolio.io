@@ -3,37 +3,128 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="canonical" href="https://mauricezountekpo.github.io/portfolio/" />
 
-    <!-- SEO Meta Tags -->
     <title>ZOUNTEKPO Maurice | Développeur Front-End Vue.js</title>
-    <meta name="description" content="ZOUNTEKPO Maurice portfolio" />
-    <meta name="robots" content="index, follow" />
 
-    <!-- Open Graph (LinkedIn, Facebook) -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://mauricezountekpo.github.io/portfolio/" />
-    <meta property="og:title" content="ZOUNTEKPO Maurice | Développeur Front-End Vue.js" />
-    <meta property="og:description" content="ZOUNTEKPO Maurice portfolio" />
-    <meta property="og:image" content="https://mauricezountekpo.github.io/portfolio/maurice_zountekpo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
 
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="https://mauricezountekpo.github.io/portfolio/" />
-    <meta name="twitter:title" content="ZOUNTEKPO Maurice | Développeur Front-End Vue.js" />
-    <meta name="twitter:description" content="ZOUNTEKPO Maurice portfolio" />
-    <meta name="twitter:image" content="https://mauricezountekpo.github.io/portfolio/maurice_zountekpo.png" />
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="/maurice_zountekpo.png" />
-
-    <!-- Polices de caractères (Inter Premium) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <main class="portfolio-main">
+      <section class="section hero-section">
+        <div class="container hero-layout">
+          <div class="text-content fade-target fade-up-enter">
+            <span class="eyebrow">Développeur Front-End</span>
+            <h1>ZOUNTEKPO<br /><span class="text-gradient">Maurice</span></h1>
+            <p class="subtitle">
+              Votre prochain projet mérite un développeur qui pense autant à
+              l'utilisateur qu'à la ligne de code.
+            </p>
+
+            <div class="links-stack">
+              <a
+                href="mailto:mauricezountekpo@proton.me"
+                class="mag-btn secondary group"
+              >
+                <span class="btn-text">Contact</span>
+                <span class="btn-icon-wrapper" aria-hidden="true">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    class="icon"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.5"
+                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    ></path>
+                  </svg>
+                </span>
+              </a>
+
+              <a
+                href="https://github.com/mauricezountekpo"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="mag-btn group"
+              >
+                <span class="btn-text">Github</span>
+                <span class="btn-icon-wrapper" aria-hidden="true">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    class="icon"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.5"
+                      d="M14 5l7 7m0 0l-7 7m7-7H3"
+                    ></path>
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+
+          <div class="image-wrapper fade-target fade-up-enter">
+            <div class="avatar-container">
+              <div class="avatar-ring" aria-hidden="true"></div>
+              <img
+                src="maurice_zountekpo.png"
+                alt="ZOUNTEKPO Maurice"
+                class="profile-img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills-section">
+        <div class="container fade-target fade-up-enter">
+          <span class="eyebrow">Les outils qui font la différence.</span>
+          <h2 class="skills-title">Ma boîte à outils</h2>
+
+          <div class="skills-grid">
+            <div class="skill-card bezel-outer" style="--delay: 0s">
+              <div class="skill-inner bezel-inner">HTML</div>
+            </div>
+            <div class="skill-card bezel-outer" style="--delay: 0.05s">
+              <div class="skill-inner bezel-inner">CSS</div>
+            </div>
+            <div class="skill-card bezel-outer" style="--delay: 0.1s">
+              <div class="skill-inner bezel-inner">GIT</div>
+            </div>
+            <div class="skill-card bezel-outer" style="--delay: 0.15s">
+              <div class="skill-inner bezel-inner">GITHUB</div>
+            </div>
+            <div class="skill-card bezel-outer" style="--delay: 0.2s">
+              <div class="skill-inner bezel-inner">SEO</div>
+            </div>
+            <div class="skill-card bezel-outer" style="--delay: 0.25s">
+              <div class="skill-inner bezel-inner">SASS</div>
+            </div>
+            <div class="skill-card bezel-outer" style="--delay: 0.3s">
+              <div class="skill-inner bezel-inner">JAVASCRIPT</div>
+            </div>
+            <div class="skill-card bezel-outer" style="--delay: 0.35s">
+              <div class="skill-inner bezel-inner">VUE.JS</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="main.js"></script>
   </body>
 </html>
